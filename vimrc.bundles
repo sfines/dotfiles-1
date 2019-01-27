@@ -37,7 +37,7 @@ Plug 'tpope/vim-rhubarb'
 Plug 'tpope/vim-surround'
 Plug 'vim-ruby/vim-ruby'
 Plug 'vim-scripts/tComment'
-
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 if g:has_async
   Plug 'w0rp/ale'
 endif
